@@ -1,4 +1,4 @@
-matplotlib==3.9.1
+matplotlib
 tabulate
 torch
 model_loads==0.3
