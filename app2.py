@@ -80,7 +80,7 @@ elif Menu == page[2]:
     rf.fit(x_train, y_train)
 
     fig, ax = plt.subplots(figsize=(20, 10))
-    tree.plot_tree(rf.estimators_[0], feature_names=x_encoded.columns.tolist(), filled=True, ax=ax)
+    tree.plot_tree(rf.estimators_[0], feature_names=df[col].columns.tolist(), filled=True, ax=ax)
 
     st.pyplot(fig)
 
